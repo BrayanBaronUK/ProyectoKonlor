@@ -44,7 +44,7 @@ public class Cadena_hoteleraDTO {
      /**
      * Metodo para mapear a la entidad los datos capturados en la vista
      *
-     * @return objeto de tipo EstudianteEntity
+     * @return objeto de tipo Cadena_hoteleraEntity
      */
     public Cadena_hoteleraEntity toEntity(){
     
@@ -57,7 +57,7 @@ public class Cadena_hoteleraDTO {
     }
     
      /**
-     * Conversion masiva de ClienteEntity a ClienteDTO
+     * Conversion masiva de Cadena_hoteleraEntity a Cadena_hoteleraDTO
      *
      * @param Cadena_hoteleraList
      * @return
