@@ -62,7 +62,7 @@ public class Cadena_hoteleraDTO {
      * @param Cadena_hoteleraList
      * @return
      */
-    public List<Cadena_hoteleraDTO> toCadena_hoteleraList(List<Cadena_hoteleraEntity> Cadena_hoteleraList){
+    public static List<Cadena_hoteleraDTO> toCadena_hoteleraList(List<Cadena_hoteleraEntity> Cadena_hoteleraList){
     
         List<Cadena_hoteleraDTO> listaCadena_hotelera = new ArrayList<>();
         for (int i = 0; i < Cadena_hoteleraList.size(); i++) {
