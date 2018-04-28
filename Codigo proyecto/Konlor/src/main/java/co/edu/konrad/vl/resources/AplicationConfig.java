@@ -11,7 +11,11 @@ import javax.ws.rs.core.Application;
 
 /**
  *
+<<<<<<< HEAD
  * @author Cesar
+=======
+ * @author Devoto
+>>>>>>> 82629539ac7f0d0900c0da3323f30dfa5b5f3726
  */
 @ApplicationPath("/api")    
 public class AplicationConfig extends Application {
@@ -24,6 +28,7 @@ public class AplicationConfig extends Application {
     
     private void addRestResourceClasses(Set<Class<?>> resources) {
         resources.add(co.edu.konrad.vl.resources.Cadena_hoteleraResources.class);
+<<<<<<< HEAD
         resources.add(co.edu.konrad.vl.resources.ClienteResources.class);
         resources.add(co.edu.konrad.vl.resources.Forma_pagoResources.class);
         resources.add(co.edu.konrad.vl.resources.HabitacionResources.class);
@@ -31,6 +36,8 @@ public class AplicationConfig extends Application {
         resources.add(co.edu.konrad.vl.resources.ReservaResources.class);
         resources.add(co.edu.konrad.vl.resources.Rol_UsuarioResources.class);
         resources.add(co.edu.konrad.vl.resources.Tipo_HabitacionResources.class);
+=======
+>>>>>>> 82629539ac7f0d0900c0da3323f30dfa5b5f3726
     }
 }
 

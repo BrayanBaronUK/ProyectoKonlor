@@ -5,6 +5,7 @@
  */
 package co.edu.konrad.vl.resources;
 
+<<<<<<< HEAD
 
 import co.edu.konrad.vl.dto.HotelDTO;
 
@@ -81,3 +82,12 @@ public class HotelResources {
 
 
 
+=======
+/**
+ *
+ * @author Devoto
+ */
+public class HotelResources {
+    
+}
+>>>>>>> 82629539ac7f0d0900c0da3323f30dfa5b5f3726

@@ -5,6 +5,7 @@
  */
 package co.edu.konrad.vl.resources;
 
+<<<<<<< HEAD
 
 import co.edu.konrad.vl.dto.ReservaDTO;
 import co.edu.konrad.vl.entities.ReservaEntity;
@@ -80,3 +81,12 @@ public class ReservaResources {
     }
 }
 
+=======
+/**
+ *
+ * @author Devoto
+ */
+public class ReservaResources {
+    
+}
+>>>>>>> 82629539ac7f0d0900c0da3323f30dfa5b5f3726

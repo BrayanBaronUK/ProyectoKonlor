@@ -5,6 +5,7 @@
  */
 package co.edu.konrad.vl.resources;
 
+<<<<<<< HEAD
 
 import co.edu.konrad.vl.dto.clienteDTO;
 import co.edu.konrad.vl.entities.ClienteEntity;
@@ -75,3 +76,12 @@ public class ClienteResources {
     }
 }  
 
+=======
+/**
+ *
+ * @author Devoto
+ */
+public class ClienteResources {
+    
+}
+>>>>>>> 82629539ac7f0d0900c0da3323f30dfa5b5f3726
