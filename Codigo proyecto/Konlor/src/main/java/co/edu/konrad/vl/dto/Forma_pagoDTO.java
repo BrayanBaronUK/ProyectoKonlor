@@ -59,7 +59,7 @@ public class Forma_pagoDTO {
      * @param forma_pagoList
      * @return
      */
-    public List<Forma_pagoDTO> toForma_pagoList(List<Forma_pagoEntity> Forma_pagoList){
+    public static List<Forma_pagoDTO> toForma_pagoList(List<Forma_pagoEntity> Forma_pagoList){
     
         List<Forma_pagoDTO> listaForma_pago = new ArrayList<>();
          for (int i = 0; i < Forma_pagoList.size(); i++) {

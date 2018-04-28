@@ -73,7 +73,7 @@ public class clienteDTO {
      * @param clienteList
      * @return
      */
-    public List<clienteDTO> toClienteList(List<ClienteEntity> clienteList){
+    public static List<clienteDTO> toClienteList(List<ClienteEntity> clienteList){
     
         List<clienteDTO> listaclientes = new ArrayList<>();
         for(int i=0; i< clienteList.size();i++){

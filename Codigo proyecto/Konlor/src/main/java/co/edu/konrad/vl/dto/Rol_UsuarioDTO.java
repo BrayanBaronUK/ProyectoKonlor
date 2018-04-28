@@ -56,7 +56,7 @@ public class Rol_UsuarioDTO {
      * @param Rol_UsuarioList
      * @return
      */
-    public List<Rol_UsuarioDTO> toRol_UsuarioList(List<Rol_UsuarioEntity> Rol_UsuarioList){
+    public static List<Rol_UsuarioDTO> toRol_UsuarioList(List<Rol_UsuarioEntity> Rol_UsuarioList){
     
         List<Rol_UsuarioDTO> listaRol_Usuario = new ArrayList<>();
         for (int i = 0; i < Rol_UsuarioList.size(); i++) {

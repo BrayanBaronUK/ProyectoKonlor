@@ -58,7 +58,7 @@ public class HotelDTO {
      * @param HotelList
      * @return
      */
-      public List<HotelDTO> toHotelList(List<HotelEntity> HotelList){
+      public static List<HotelDTO> toHotelList(List<HotelEntity> HotelList){
     
         List<HotelDTO> listaHotel = new ArrayList<>();
         for (int i = 0; i < HotelList.size(); i++) {

@@ -92,7 +92,7 @@ public class ReservaDTO {
      * @param ReservaList
      * @return
      */
-        public List<ReservaDTO> toReservaList(List<ReservaEntity> ReservaList){
+        public static List<ReservaDTO> toReservaList(List<ReservaEntity> ReservaList){
     
         List<ReservaDTO> listaReserva = new ArrayList<>();
         for (int i = 0; i < ReservaList.size(); i++) {

@@ -75,7 +75,7 @@ public class HabitacionDTO {
      * @param HabitacionList
      * @return
      */
-    public List<HabitacionDTO> toHabitacionList(List<HabitacionEntity> HabitacionList){
+    public static List<HabitacionDTO> toHabitacionList(List<HabitacionEntity> HabitacionList){
     
         List<HabitacionDTO> listaHabitacion = new ArrayList<>();
         for (int i = 0; i < HabitacionList.size(); i++) {

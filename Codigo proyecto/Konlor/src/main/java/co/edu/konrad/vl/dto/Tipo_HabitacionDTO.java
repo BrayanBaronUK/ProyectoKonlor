@@ -60,7 +60,7 @@ public class Tipo_HabitacionDTO {
      * @param Tipo_HabitacionList
      * @return
      */
-      public List<Tipo_HabitacionDTO> toTipo_HabitacionList(List<Tipo_HabitacionEntity> Tipo_HabitacionList){
+      public static List<Tipo_HabitacionDTO> toTipo_HabitacionList(List<Tipo_HabitacionEntity> Tipo_HabitacionList){
     
         List<Tipo_HabitacionDTO> listaTipo_Habitacion = new ArrayList<>();
         for (int i = 0; i < Tipo_HabitacionList.size(); i++) {
