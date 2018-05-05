@@ -68,7 +68,10 @@
             <a class="nav-link js-scroll-trigger" href="#skills">Precios</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#interests">Estrellas</a>
+            <a class="nav-link js-scroll-trigger" href="#interests">Reserva</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#interests">Pago</a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#awards">Galeria</a>
@@ -87,7 +90,7 @@
           <div class="subheading mb-5">3542 Berry Street · Cheyenne Wells, CO 80810 · (317) 585-8468 ·
             <a href="mailto:name@email.com">name@email.com</a>
           </div>
-          <p class="mb-5">Somos el mejor grupo de reserva de hoteles de la Universidad Konrad Lorenz, ideamos los mejores lugares para su estadia con toda su familia , y seres amados estamos a su disposisicion, encunetra los mejores precios, comidas y lugares para pasar un rato agradable.</p>
+          <p class="mb-5">Somos el mejor grupo de reserva de hoteles de la Universidad Konrad Lorenz, ideamos los mejores lugares para su estadia con toda su familia , y seres amados estamos a su disposicion, encuentra los mejores precios, comidas y lugares para pasar un rato agradable.</p>
           <ul class="list-inline list-social-icons mb-0">
             <li class="list-inline-item">
               <a href="#">
@@ -268,9 +271,30 @@
 
       <section class="resume-section p-3 p-lg-5 d-flex flex-column" id="interests">
         <div class="my-auto">
-          <h2 class="mb-5">Interests</h2>
-          <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skiier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-          <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technolgy advancements in the front-end web development world.</p>
+          <h2 class="mb-5">FORMULARIO DE PAGO</h2>
+
+        	<form action="ejemplo.php" method="get">
+			  <p>Entrada: <input type="number" name="nacido" min="1900" /></p>
+			  <p>Salida: <input type="number" name="nacido" min="1900" /></p>
+			  <p>Habitaciones: <input type="number" name="nacido" min="1900" /></p>
+			  <p>Precio: <input type="number" name="nacido" min="1900" /></p>
+			  <select name="menu">
+				  <option value="1">Tarjeta</option>
+				  <option value="2">Contado</option>
+				  <option value="3">Diferido</option>
+				</select>
+			  <p>Expedicion Fecha: <input type="number" name="nacido" min="1900" /></p>
+			  <p>Codigo de Seguridad: <input type="number" name="nacido" min="1900" /></p>
+			  <p>Sexo:
+			    <input type="radio" name="hm" value="h"> Hombre
+			    <input type="radio" name="hm" value="m"> Mujer
+			  </p>
+			  <p>
+			    <input type="submit" value="Pagar" />
+			    <input type="reset" value="Borrar" />
+			  </p>
+			</form>
+
         </div>
       </section>
 
