@@ -8,12 +8,14 @@ package co.edu.konrad.vl.logic;
 import co.edu.konrad.vl.entities.ReservaEntity;
 import co.edu.konrad.vl.persistence.ReservaPersistence;
 import java.util.List;
+import javax.ejb.Stateless;
 import javax.inject.Inject;
 
 /**
  *
  * @author Cesar
  */
+@Stateless
 public class ReservaLogic {
         
     /**

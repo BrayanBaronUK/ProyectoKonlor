@@ -8,12 +8,14 @@ package co.edu.konrad.vl.logic;
 import co.edu.konrad.vl.entities.Tipo_HabitacionEntity;
 import co.edu.konrad.vl.persistence.Tipo_HabitacionPersistence;
 import java.util.List;
+import javax.ejb.Stateless;
 import javax.inject.Inject;
 
 /**
  *
  * @author Cesar
  */
+@Stateless
 public class Tipo_HabitacionLogic {
         
     /**

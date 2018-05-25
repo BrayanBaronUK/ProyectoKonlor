@@ -8,12 +8,14 @@ package co.edu.konrad.vl.logic;
 import co.edu.konrad.vl.entities.Forma_pagoEntity;
 import co.edu.konrad.vl.persistence.Forma_pagoPersistence;
 import java.util.List;
+import javax.ejb.Stateless;
 import javax.inject.Inject;
 
 /**
  *
  * @author Cesar
  */
+@Stateless
 public class Forma_pagoLogic {
         
     /**

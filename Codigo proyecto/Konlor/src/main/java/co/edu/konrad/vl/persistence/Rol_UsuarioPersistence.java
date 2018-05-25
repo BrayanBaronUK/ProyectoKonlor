@@ -20,7 +20,7 @@ import javax.persistence.Query;
 
 public class Rol_UsuarioPersistence {
 
-    @PersistenceContext(unitName = "com.konrad.edu.co_Konlor_war_1.0-SNAPSHOTPU")
+    @PersistenceContext(unitName = "konlor")
     protected EntityManager em; // que hacer la trasaccion
 
     /**

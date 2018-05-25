@@ -8,12 +8,14 @@ package co.edu.konrad.vl.logic;
 import co.edu.konrad.vl.entities.Rol_UsuarioEntity;
 import co.edu.konrad.vl.persistence.Rol_UsuarioPersistence;
 import java.util.List;
+import javax.ejb.Stateless;
 import javax.inject.Inject;
 
 /**
  *
  * @author Cesar
  */
+@Stateless
 public class Rol_UsuarioLogic {
         
     /**

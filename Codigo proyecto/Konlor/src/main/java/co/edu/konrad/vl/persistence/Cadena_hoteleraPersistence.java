@@ -21,7 +21,7 @@ import javax.persistence.TypedQuery;
 public class Cadena_hoteleraPersistence {
 
     //por cada tabla habra un controller
-    @PersistenceContext(unitName = "com.konrad.edu.co_Konlor_war_1.0-SNAPSHOTPU")
+    @PersistenceContext(unitName = "konlor")
     protected EntityManager em;
 
     //select * from la tabla

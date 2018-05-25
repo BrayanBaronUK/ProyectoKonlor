@@ -11,13 +11,9 @@ import javax.ws.rs.core.Application;
 
 /**
  *
-<<<<<<< HEAD
  * @author Cesar
-=======
- * @author Devoto
->>>>>>> 82629539ac7f0d0900c0da3323f30dfa5b5f3726
  */
-@ApplicationPath("/api")    
+@ApplicationPath("api")    
 public class AplicationConfig extends Application {
     @Override
     public Set<Class<?>> getClasses() {

@@ -8,12 +8,14 @@ package co.edu.konrad.vl.logic;
 import co.edu.konrad.vl.entities.Cadena_hoteleraEntity;
 import co.edu.konrad.vl.persistence.Cadena_hoteleraPersistence;
 import java.util.List;
+import javax.ejb.Stateless;
 import javax.inject.Inject;
 
 /**
  *
  * @author Cesar 
  */
+@Stateless
 public class Cadena_hoteleraLogic {
       /**
      * Inyección del persistence de cadena_hotelera
