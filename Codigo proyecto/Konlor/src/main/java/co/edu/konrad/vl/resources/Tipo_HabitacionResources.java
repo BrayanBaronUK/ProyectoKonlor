@@ -5,7 +5,6 @@
  */
 package co.edu.konrad.vl.resources;
 
-<<<<<<< HEAD
 import co.edu.konrad.vl.dto.Tipo_HabitacionDTO;
 import co.edu.konrad.vl.entities.Tipo_HabitacionEntity;
 import co.edu.konrad.vl.logic.Tipo_HabitacionLogic;
@@ -78,12 +77,3 @@ public class Tipo_HabitacionResources {
     }
 }
 
-=======
-/**
- *
- * @author Devoto
- */
-public class Tipo_HabitacionResources {
-    
-}
->>>>>>> 82629539ac7f0d0900c0da3323f30dfa5b5f3726

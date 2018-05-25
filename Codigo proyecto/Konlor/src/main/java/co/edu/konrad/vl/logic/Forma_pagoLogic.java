@@ -60,11 +60,7 @@ public class Forma_pagoLogic {
      * @param id
      * @return forma_pago actualizado
      */
-<<<<<<< HEAD
     public Forma_pagoEntity actualizarForma_pago(Long id, Forma_pagoEntity formaEntity){
-=======
-    public Forma_pagoEntity actualizaForma_pago(Long id, Forma_pagoEntity formaEntity){
->>>>>>> 82629539ac7f0d0900c0da3323f30dfa5b5f3726
         Forma_pagoEntity forma_pago = forma_pagoPersistence.update(formaEntity);
         return forma_pago;
     }
