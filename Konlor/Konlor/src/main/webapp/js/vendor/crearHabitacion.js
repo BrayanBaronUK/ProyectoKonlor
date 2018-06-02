@@ -14,29 +14,32 @@
 
     if (getUrlParameter('id')) {
         $.ajax({
-            url: '/konlor/api/clienteId/' + getUrlParameter('id'),
+            url: '/konlor/api/habitacionId/' + getUrlParameter('id'),
             contentType: 'application/json',
             method: 'GET',
             dataType: 'json'
         }).done(function (data) {
-            var nom_cliente = $('#nom_cliente').val(data.nomCliente);
-            var cedula_cliente = $('#cedula_cliente').val(data.CedulaCliente);
-            var edad_cliente = $('#edad_cliente').val(data.edadCliente);
+            var num_habitacion = $('#num_habitacion').val(data.numHabitacion);
+            var tipo_disponibilidad = $('#tipo_disponibilidad').val(data.tipoDisponibilidad);
+            var id_hotel = $('#id_hotel').val(data.idHotel);
+            var id_tipo = $('#id_tipo').val(data.idTipo);
+            var id_disponibilidad = $('#id_disponibilidad').val(data.idDisponibilidad);
             var id = data.id;
 
-            $('#botonCrear').text('Actualizar Cliente').click(function (event) {
-                var nom_cliente = $('#nom_cliente').val();
-                var cedula_cliente = $('#cedula_cliente').val();
-                var edad_cliente = $('#edad_cliente').val();
+            $('#botonCrear').text('Actualizar habitacion').click(function (event) {
+                var num_habitacion = $('#num_habitacion').val();
+                var tipo_disponibilidad = $('#tipo_disponibilidad').val();
+                var id_hotel = $('#id_hotel').val();
+                var id_tipo = $('#id_tipo').val();
+                var id_disponibilidad = $('#id_disponibilidad').val();
 
                 $.ajax({
-                    url: '/konlor/api/clienteId/' + id,
+                    url: '/konlor/api/habitacionId/' + id,
                     contentType: 'application/json',
                     data: JSON.stringify({
-                        nomCliente: nom_cliente,
-                        CedulaCliente: cedula_cliente,
-                        edadCliente: edad_cliente,
-                        id: id
+                        numHabitacion: num_habitacion,
+                        tipoDisponibilidad: tipo_disponibilidad,
+                        id_hotel: idHotel
                     }),
                     method: 'PUT',
                     dataType: 'json'
@@ -51,16 +54,15 @@
         });
     } else {
         $('#botonCrear').click(function (event) {
-            var nom_cliente = $('#nom_cliente').val();
-            var cedula_cliente = $('#cedula_cliente').val();
-            var edad_cliente = $('#edad_cliente').val();
+            var nom_hotel = $('#nom_hotel').val();
+            var ubicacion = $('#ubicacion').val();
             $.ajax({
-                url: '/konlor/api/clienteId/',
+                url: '/konlor/api/habitacionId/',
                 contentType: 'application/json',
                 data: JSON.stringify({
-                    nomCliente: nom_cliente,
-                    CedulaCliente: cedula_cliente,
-                    edadCliente: edad_cliente
+                          numHabitacion: num_habitacion,
+                        tipoDisponibilidad: tipo_disponibilidad,
+                        id_hotel: idHotel
                 }),
                 method: 'POST',
                 dataType: 'json'
